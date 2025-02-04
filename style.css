@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: border-box;
@@ -8,7 +8,7 @@
 
 /*  NavBar1 Styling  */
 
-.navbar{
+.navbar {
     height: 30px;
     width: 100%;
     border: 2px solid rgb(203, 197, 197);
@@ -17,15 +17,17 @@
     position: fixed;
     z-index: 1;
 }
-.head{
+
+.head {
     margin-left: 100px;
-    display: flex;   
+    display: flex;
 }
-.top{
+
+.top {
     margin-left: 20px;
     border-top: 5px solid rgb(255, 255, 255);
     font-size: 0.8rem;
-    height:25px;
+    height: 25px;
     width: 130px;
     display: flex;
     text-align: center;
@@ -34,22 +36,27 @@
     font-weight: 550;
 
 }
-.head a{
+
+.head a {
     color: rgb(128, 128, 128);
 }
-.me, .top:hover{
+
+.me,
+.top:hover {
     border-top: 5px solid rgb(255, 0, 0);
 }
-.down{
+
+.down {
     height: 25px;
     width: 130px;
     /* background-color: green; */
-    
+
     justify-content: space-evenly;
     border-top: 5px solid rgb(255, 255, 255);
     margin-left: 730px;
 }
-.exploremore{
+
+.exploremore {
     height: 25px;
     width: 130px;
     font-size: 0.9rem;
@@ -61,49 +68,60 @@
     text-align: center;
     /* margin-left: 500px; */
 }
-.exploremore:hover{
+
+.exploremore:hover {
     background-color: rgb(245, 245, 245);
     color: red;
 }
-.exploremore:hover i{
+
+.exploremore:hover i {
     color: red;
 }
-.down:hover{
+
+.down:hover {
     border-top: 5px solid red;
     color: rgb(113, 9, 114);
 }
-.downitems ul li{
+
+.downitems ul li {
     height: 45px;
     width: 170px;
     display: flex;
-    text-align:left;
-    align-items:center;
-    justify-content:left;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
     background-color: rgb(227, 227, 227);
     border-left: 1px solid rgb(136, 132, 132);
     border-right: 1px solid rgb(136, 132, 132);
 }
-.downitems ul li a,i{
+
+.downitems ul li a,
+i {
     color: black;
 }
+
 .downitems ul i {
     margin-left: 10px;
     padding-right: 10px;
-   
+
 }
-.downitems ul{
+
+.downitems ul {
     display: none;
-   
+
 }
-.down:hover .downitems{
+
+.down:hover .downitems {
     display: block;
     position: absolute;
     z-index: 1;
 }
-.down:hover .downitems ul{
+
+.down:hover .downitems ul {
     display: block;
 }
-.downitems li:hover{
+
+.downitems li:hover {
     background-color: rgb(212, 212, 212);
 }
 
@@ -111,7 +129,7 @@
 
 /* NavBar2 Styling */
 
-.navbar2{
+.navbar2 {
     height: 80px;
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -124,16 +142,18 @@
     position: fixed;
     box-shadow: 5px 5px 8px grey;
 }
-.logo{
+
+.logo {
     height: 75px;
     width: 99px;
     /* background-color: grey; */
-    background-image: url(a2.webp);
+    background-image: url(/images/a2.webp);
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 120px;
 }
-.box1{
+
+.box1 {
     height: 75px;
     width: 110px;
     background-color: rgb(113, 189, 113);
@@ -143,9 +163,10 @@
     text-align: center;
     /* justify-content: space-evenly; */
     /* margin-left: 20px; */
-   
+
 }
-.btn{
+
+.btn {
     height: 75px;
     width: 110px;
     font-size: 0.9rem;
@@ -153,13 +174,14 @@
     border: none;
     /* margin-right: 50px; */
 }
-.items1 ul li{
+
+.items1 ul li {
     width: 170px;
     height: 45px;
     display: flex;
-    text-align:left;
-    align-items:center;
-    justify-content:left;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
     background-color: rgb(227, 227, 227);
     border-left: 1px solid rgb(136, 132, 132);
     border-right: 1px solid rgb(136, 132, 132);
@@ -168,44 +190,52 @@
     margin-right: 380px;
 
 }
-.items1 ul li a{
+
+.items1 ul li a {
     color: black;
 }
-.items1 ul{
+
+.items1 ul {
     display: none;
 }
-.box1:hover .items1{
+
+.box1:hover .items1 {
     display: block;
     position: absolute;
 }
-.box1:hover .items1 ul{
+
+.box1:hover .items1 ul {
     display: block;
 }
-.items1 li:hover{
+
+.items1 li:hover {
     background-color: rgb(212, 212, 212);
 }
-.items1{
+
+.items1 {
     margin-top: 165px;
 }
+
 /* .items1 ul{
     margin-left: 20px;
 } */
-.box1:hover{
+.box1:hover {
     border-top: 5px solid red;
 }
-.navbar2items{
+
+.navbar2items {
     display: flex;
     /* margin-left: 180px; */
     margin-right: 60px;
 }
 
-.items2 ul li{
+.items2 ul li {
     width: 170px;
     height: 45px;
     display: flex;
-    text-align:left;
-    align-items:center;
-    justify-content:left;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
     background-color: rgb(227, 227, 227);
     border-left: 1px solid rgb(136, 132, 132);
     border-right: 1px solid rgb(136, 132, 132);
@@ -214,34 +244,40 @@
     margin-right: 300px;
 
 }
-.items2 ul li a{
+
+.items2 ul li a {
     color: black;
 }
-.items2 ul{
+
+.items2 ul {
     display: none;
 }
-.box1:hover .items2{
+
+.box1:hover .items2 {
     display: block;
     position: absolute;
 }
-.box1:hover .items2 ul{
+
+.box1:hover .items2 ul {
     display: block;
 }
-.items2 li:hover{
+
+.items2 li:hover {
     background-color: rgb(212, 212, 212);
 }
-.items2{
+
+.items2 {
     margin-top: 345px;
 }
 
 
-.items3 ul li{
+.items3 ul li {
     width: 170px;
     height: 45px;
     display: flex;
-    text-align:left;
-    align-items:center;
-    justify-content:left;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
     background-color: rgb(227, 227, 227);
     border-left: 1px solid rgb(136, 132, 132);
     border-right: 1px solid rgb(136, 132, 132);
@@ -249,36 +285,43 @@
     padding-left: 10px;
     margin-right: 300px;
 }
-.items3 ul li a{
+
+.items3 ul li a {
     color: black;
 }
-.items3 ul{
+
+.items3 ul {
     display: none;
 }
-.box1:hover .items3{
+
+.box1:hover .items3 {
     display: block;
     position: absolute;
 }
-.box1:hover .items3 ul{
+
+.box1:hover .items3 ul {
     display: block;
 }
-.items3 li:hover{
+
+.items3 li:hover {
     background-color: rgb(212, 212, 212);
 }
-.items3{
+
+.items3 {
     margin-top: 390px;
 }
+
 /* .items3 ul{
     margin-left: 20px;
 } */
 
-.items4 ul li{
+.items4 ul li {
     width: 170px;
     height: 45px;
     display: flex;
-    text-align:left;
-    align-items:center;
-    justify-content:left;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
     background-color: rgb(227, 227, 227);
     border-left: 1px solid rgb(136, 132, 132);
     border-right: 1px solid rgb(136, 132, 132);
@@ -286,34 +329,40 @@
     padding-left: 10px;
     margin-right: 300px;
 }
-.items4 ul li a{
+
+.items4 ul li a {
     color: black;
 }
-.items4 ul{
+
+.items4 ul {
     display: none;
 }
-.box1:hover .items4{
+
+.box1:hover .items4 {
     display: block;
     position: absolute;
 }
-.box1:hover .items4 ul{
+
+.box1:hover .items4 ul {
     display: block;
 }
-.items4 li:hover{
+
+.items4 li:hover {
     background-color: rgb(212, 212, 212);
 }
-.items4{
+
+.items4 {
     margin-top: 210px;
 }
 
 
-.items5 ul li{
+.items5 ul li {
     width: 170px;
     height: 45px;
     display: flex;
-    text-align:left;
-    align-items:center;
-    justify-content:left;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
     background-color: rgb(227, 227, 227);
     border-left: 1px solid rgb(136, 132, 132);
     border-right: 1px solid rgb(136, 132, 132);
@@ -322,34 +371,40 @@
     margin-right: 300px;
 
 }
-.items5 ul li a{
+
+.items5 ul li a {
     color: black;
 }
-.items5 ul{
+
+.items5 ul {
     display: none;
 }
-.box1:hover .items5{
+
+.box1:hover .items5 {
     display: block;
     position: absolute;
 }
-.box1:hover .items5 ul{
+
+.box1:hover .items5 ul {
     display: block;
 }
-.items5 li:hover{
+
+.items5 li:hover {
     background-color: rgb(212, 212, 212);
 }
-.items5{
+
+.items5 {
     margin-top: 343px;
 }
 
 
-.items6 ul li{
+.items6 ul li {
     width: 170px;
     height: 45px;
     display: flex;
-    text-align:left;
-    align-items:center;
-    justify-content:left;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
     background-color: rgb(227, 227, 227);
     border-left: 1px solid rgb(136, 132, 132);
     border-right: 1px solid rgb(136, 132, 132);
@@ -358,34 +413,40 @@
     margin-right: 300px;
 
 }
-.items6 ul li a{
+
+.items6 ul li a {
     color: black;
 }
-.items6 ul{
+
+.items6 ul {
     display: none;
 }
-.box1:hover .items6{
+
+.box1:hover .items6 {
     display: block;
     position: absolute;
 }
-.box1:hover .items6 ul{
+
+.box1:hover .items6 ul {
     display: block;
 }
-.items6 li:hover{
+
+.items6 li:hover {
     background-color: rgb(212, 212, 212);
 }
-.items6{
+
+.items6 {
     margin-top: 252px;
 }
 
 
-.items7 ul li{
+.items7 ul li {
     width: 170px;
     height: 45px;
     display: flex;
-    text-align:left;
-    align-items:center;
-    justify-content:left;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
     background-color: rgb(227, 227, 227);
     border-left: 1px solid rgb(136, 132, 132);
     border-right: 1px solid rgb(136, 132, 132);
@@ -394,34 +455,40 @@
     margin-right: 300px;
 
 }
-.items7 ul li a{
+
+.items7 ul li a {
     color: black;
 }
-.items7 ul{
+
+.items7 ul {
     display: none;
 }
-.box1:hover .items7{
+
+.box1:hover .items7 {
     display: block;
     position: absolute;
 }
-.box1:hover .items7 ul{
+
+.box1:hover .items7 ul {
     display: block;
 }
-.items7 li:hover{
+
+.items7 li:hover {
     background-color: rgb(212, 212, 212);
 }
-.items7{
+
+.items7 {
     margin-top: 210px;
 }
 
 
-.items8 ul li{
+.items8 ul li {
     width: 170px;
     height: 45px;
     display: flex;
-    text-align:left;
-    align-items:center;
-    justify-content:left;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
     background-color: rgb(227, 227, 227);
     border-left: 1px solid rgb(136, 132, 132);
     border-right: 1px solid rgb(136, 132, 132);
@@ -430,10 +497,12 @@
     margin-right: 300px;
 
 }
-.items8 ul li a{
+
+.items8 ul li a {
     color: black;
 }
-.items8 ul{
+
+.items8 ul {
     display: none;
 }
 
@@ -441,31 +510,35 @@
     padding-right: 10px;
 }
 
-.box1:hover .items8{
+.box1:hover .items8 {
     display: block;
     position: absolute;
 }
-.box1:hover .items8 ul{
+
+.box1:hover .items8 ul {
     display: block;
 }
-.items8 li:hover{
+
+.items8 li:hover {
     background-color: rgb(212, 212, 212);
 }
-.items8{
+
+.items8 {
     margin-top: 210px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: rgb(245, 245, 245);
     color: red;
 }
-.btn:hover i{
+
+.btn:hover i {
     color: red;
 }
 
 /* Body 1 */
 
-.body1{
+.body1 {
     height: 400px;
     width: 100%;
     /* background-color: pink; */
@@ -473,20 +546,23 @@
     align-items: center;
     /* margin-top: 110px; */
 }
-.text1{
+
+.text1 {
     height: 390px;
     width: 55%;
     /* background-color: rgb(155, 210, 155); */
     margin-left: 40px;
 }
-.txt1{
+
+.txt1 {
     margin-top: 20px;
     font-size: 2.4rem;
     font-family: cursive;
     font-weight: 550;
     margin-left: 50px;
 }
-.txt2{
+
+.txt2 {
     font-size: 1.5rem;
     font-weight: 550;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -494,7 +570,7 @@
     margin-left: 50px;
 }
 
-.knowmore{
+.knowmore {
     height: 40px;
     width: 150px;
     background-color: rgb(86, 75, 75);
@@ -508,42 +584,48 @@
     margin-left: 50px;
     margin-top: 15px;
 }
-.knowmore a{
+
+.knowmore a {
     color: white;
     padding-right: 3px;
     font-size: 1.2rem;
 }
-.knowmore:hover{
+
+.knowmore:hover {
     background-color: black;
     border: 2px solid black;
 }
-.photo{
+
+.photo {
     height: 390px;
     width: 40%;
     /* background-color: grey; */
-    background-image: url(a3.jpg);
+    background-image: url(/images/a3.jpg);
     background-size: cover;
 }
 
 /*  Recharge section  */
 
-.recharge{
+.recharge {
     height: 280px;
     width: 100%;
     background-color: rgb(240, 240, 240);
 }
-.recharge p{
+
+.recharge p {
     text-align: center;
     font-size: 2.1rem;
     font-family: cursive;
     font-weight: 550;
 }
-.selectitems{
+
+.selectitems {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.select{
+
+.select {
     height: 40px;
     width: 100px;
     background-color: rgb(230, 231, 232);
@@ -558,30 +640,38 @@
     border: 0.5px solid rgb(179, 92, 92);
     font-weight: 550;
 }
-.select a{
+
+.select a {
     color: black;
 }
-.act, .select:hover{
+
+.act,
+.select:hover {
     background-color: rgb(180, 243, 254);
 }
-.number{
+
+.number {
     display: flex;
     justify-content: center;
 }
-.number input:hover{
+
+.number input:hover {
     border: 2px solid blue;
 }
-.enternum{
+
+.enternum {
     height: 35px;
     width: 380px;
     margin-top: 20px;
     padding-left: 10px;
 }
-.number input{
+
+.number input {
     border: 2px solid grey;
     border-radius: 7px;
 }
-.rechargeok{
+
+.rechargeok {
     height: 35px;
     width: 380px;
     margin-left: 37%;
@@ -593,17 +683,19 @@
     text-align: center;
     justify-content: space-evenly;
 }
-.rechargeok a{
+
+.rechargeok a {
     color: white;
 }
-.rechargeok:hover{
+
+.rechargeok:hover {
     background-color: black;
 }
 
 
 /*  Free 2 GB  */
 
-.free{
+.free {
     height: 35px;
     width: 100%;
     background-color: rgb(254, 29, 29);
@@ -612,10 +704,12 @@
     align-items: center;
     justify-content: center;
 }
-.free p{
+
+.free p {
     color: white;
 }
-.app{
+
+.app {
     height: 20px;
     width: 65px;
     background-color: rgb(247, 47, 47);
@@ -627,29 +721,33 @@
     border: 2px solid white;
     border-radius: 10px;
 }
-.app a{
+
+.app a {
     color: white;
     font-size: 0.7rem;
 }
-.app:hover{
+
+.app:hover {
     background-color: rgb(92, 49, 49);
 }
 
 
-/*   Buy New    */ 
+/*   Buy New    */
 
-.buy{
+.buy {
     height: 400px;
     width: 100%;
     /* background-color: rgb(201, 198, 198); */
     text-align: center;
 }
-.buynew p{
+
+.buynew p {
     font-size: 2.4rem;
     font-family: cursive;
     font-weight: 550;
 }
-.selectme{
+
+.selectme {
     height: 70px;
     width: 70px;
     border: 1px solid rgb(196, 158, 158);
@@ -662,25 +760,30 @@
     text-align: center;
     justify-content: space-evenly;
 }
-.selectme:hover{
+
+.selectme:hover {
     background-color: rgb(147, 235, 250);
 }
-.selectme i{
+
+.selectme i {
     font-size: 2.3rem;
     color: black;
 }
-.selecticon{
+
+.selecticon {
     display: flex;
     text-align: center;
     align-items: center;
     margin-left: 345px;
     margin-top: 30px;
 }
-.icon p{
+
+.icon p {
     margin-top: 5px;
     margin-left: 50px;
 }
-.switchto{
+
+.switchto {
     height: 100px;
     width: 600px;
     background-color: rgb(255, 54, 54);
@@ -693,7 +796,8 @@
     align-items: center;
     justify-content: last baseline;
 }
-.sim{
+
+.sim {
     height: 70%;
     width: 65px;
     background-color: rgb(255, 146, 146);
@@ -704,17 +808,20 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.sim i{
+
+.sim i {
     font-size: 2.8rem;
 }
-.order{
+
+.order {
     height: 70%;
     width: 365px;
     /* background-color: green; */
     text-align: left;
     margin-left: 6px;
 }
-.order .h1{
+
+.order .h1 {
     margin-top: 10px;
     font-size: 1.2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -722,11 +829,13 @@
     margin-left: 10px;
     color: white;
 }
-.order p{
+
+.order p {
     margin-left: 10px;
     color: white;
 }
-.getstart{
+
+.getstart {
     height: 33px;
     width: 130px;
     background-color: rgb(255, 75, 75);
@@ -738,30 +847,34 @@
     border-radius: 10px;
     margin-left: 6px;
 }
-.getstart a{
+
+.getstart a {
     font-weight: 550;
     color: white;
 }
-.getstart:hover{
+
+.getstart:hover {
     background-color: rgb(91, 70, 70);
 }
 
 
 /*   Recomended   */
 
-.recomended{
+.recomended {
     height: 570px;
     width: 100%;
     background-color: rgb(240, 240, 240);
 }
-.p00{
+
+.p00 {
     padding-top: 50px;
     text-align: center;
     font-size: 2.6rem;
     font-family: cursive;
     font-weight: 550;
 }
-.photoframe{
+
+.photoframe {
     height: 380px;
     width: 30%;
     /* background-color: green; */
@@ -769,12 +882,14 @@
     border-radius: 15px;
     border: 2px solid rgb(196, 192, 192);
 }
-.frame{
+
+.frame {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.frame1{
+
+.frame1 {
     height: 228px;
     width: 100%;
     /* background-color: pink; */
@@ -784,32 +899,38 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.photoframe p{
+
+.photoframe p {
     margin-left: 30px;
 }
-.photoframe .p1{
+
+.photoframe .p1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 550;
     font-size: 1.2rem;
     margin-top: 10px;
 }
-.photoframe .p2{
+
+.photoframe .p2 {
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 1.37rem;
     margin-top: 5px;
 }
-.photoframe .p3{
+
+.photoframe .p3 {
     font-size: 1.1rem;
     margin-top: 5px;
 }
-.learn1{
+
+.learn1 {
     display: flex;
     align-items: center;
     text-align: center;
     margin-left: 30px;
     margin-top: 10px;
 }
-.buynow{
+
+.buynow {
     height: 30px;
     width: 120px;
     background-color: rgb(75, 75, 75);
@@ -820,16 +941,19 @@
     border: 2px solid black;
     border-radius: 10px;
 }
-.buynow .p4{
+
+.buynow .p4 {
     font-size: 1.15rem;
     color: white;
 }
-.learn1 .p5{
+
+.learn1 .p5 {
     margin-left: 20px;
     color: blue;
-   
+
 }
-.buynow:hover{
+
+.buynow:hover {
     background-color: black;
     border: 2px solid black;
 }
@@ -837,17 +961,18 @@
 
 /*    Airtel Fiber   */
 
-.airtelfiber{
+.airtelfiber {
     height: 560px;
     width: 100%;
     /* background-color: pink; */
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    background-image: url(a7.jpeg);
+    background-image: url(/images/a7.jpeg);
     background-size: cover;
 }
-.selectdevice{
+
+.selectdevice {
     height: 430px;
     width: 30%;
     background-color: rgb(227, 227, 227);
@@ -855,33 +980,39 @@
     border-radius: 20px;
     margin: 10px auto;
 }
-.find p{
+
+.find p {
     text-align: center;
     font-size: 2.6rem;
     font-family: cursive;
     font-weight: 550;
     padding-top: 20px;
 }
-.selectdevice .d1{
+
+.selectdevice .d1 {
     font-size: 1.1rem;
     font-weight: 550;
     padding-top: 30px;
     color: red;
 }
-.selectdevice .d2{
+
+.selectdevice .d2 {
     font-size: 1.25rem;
     font-weight: 550;
     font-family: cursive;
 }
-.d2items{
+
+.d2items {
     margin-top: 20px;
 }
-.selectdevice .d3{
+
+.selectdevice .d3 {
     font-size: 1rem;
     padding-top: 10px;
     color: rgb(112, 0, 217);
 }
-.a3option{
+
+.a3option {
     height: 190px;
     width: 200px;
     /* background-color: red; */
@@ -892,7 +1023,7 @@
     justify-content: space-around;
 }
 
-.option1{
+.option1 {
     height: 50px;
     width: 200px;
     background-color: rgb(215, 215, 215);
@@ -900,11 +1031,13 @@
     border-radius: 17px;
     border: 1px solid rgb(199, 199, 199);
 }
-.option1:hover{
+
+.option1:hover {
     background-color: rgb(233, 233, 233);
     border: 1px solid grey;
 }
-.option1 .p11{
+
+.option1 .p11 {
     font-size: 1.3rem;
     font-family: sans-serif;
     padding-top: 13px;
@@ -913,7 +1046,7 @@
 
 /*  Business  */
 
-.business{
+.business {
     height: 300px;
     width: 100%;
     background-color: rgb(234, 234, 234);
@@ -922,13 +1055,15 @@
     justify-content: space-evenly;
     text-align: center;
 }
-.businessitems{
+
+.businessitems {
     height: 280px;
     width: 80%;
     /* background-color: pink; */
     text-align: left;
 }
-.allimage{
+
+.allimage {
     width: 100%;
     height: 120px;
     /* background-color: red; */
@@ -936,38 +1071,45 @@
     justify-content: space-between;
     margin-top: 15px;
 }
-.business .b1{
+
+.business .b1 {
     margin-top: 15px;
     font-size: 2.2rem;
     font-family: cursive;
     font-weight: 550;
 }
-.business .b2{
+
+.business .b2 {
     padding-top: 6px;
     font-size: 1.2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.business .b3{
-    margin-top:10px;
+
+.business .b3 {
+    margin-top: 10px;
     font-size: 0.8rem;
     font-weight: 550;
     color: blue;
 }
-.business .b3 a{
+
+.business .b3 a {
     color: blue;
 }
-.airtelbox{
+
+.airtelbox {
     height: 120px;
     width: 250px;
     background-color: rgb(218, 218, 218);
     border: 2px solid rgb(188, 188, 188);
     border-radius: 15px;
 }
-.airtelbox:hover{
+
+.airtelbox:hover {
     background-color: rgb(234, 234, 234);
 
 }
-.image{
+
+.image {
     height: 50px;
     width: 100%;
     /* background-color: green; */
@@ -978,31 +1120,35 @@
     color: rgb(63, 0, 0);
     margin-top: 5px;
 }
-.airtelbox .a1{
+
+.airtelbox .a1 {
     font-size: 1.1rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 550;
     margin-left: 5px;
 }
-.airtelbox .a2{
+
+.airtelbox .a2 {
     color: rgb(113, 97, 97);
     margin-left: 5px;
 
 }
-.aboutimage .a1{
+
+.aboutimage .a1 {
     color: black;
 }
 
 /*   Bottom1  */
 
-.bottom1{
+.bottom1 {
     height: 550px;
     width: 100%;
     /* background-color: pink; */
     display: flex;
     justify-content: space-evenly;
 }
-.bottomh1{
+
+.bottomh1 {
     height: 520px;
     width: 20%;
     /* background-color: grey; */
@@ -1010,7 +1156,8 @@
     display: grid;
     margin-top: 20px;
 }
-.bottomh2{
+
+.bottomh2 {
     height: 453px;
     width: 20%;
     /* background-color: grey; */
@@ -1018,7 +1165,8 @@
     display: grid;
     margin-top: 20px;
 }
-.bottomh3{
+
+.bottomh3 {
     height: 327px;
     width: 20%;
     /* background-color: grey; */
@@ -1026,7 +1174,8 @@
     display: grid;
     margin-top: 20px;
 }
-.bottomh4{
+
+.bottomh4 {
     height: 260px;
     width: 20%;
     /* background-color: grey; */
@@ -1034,31 +1183,34 @@
     display: grid;
     margin-top: 20px;
 }
-.head1{
+
+.head1 {
     margin-left: 10px;
     margin-top: 15px;
     font-size: 1.4rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 550;
 }
-.levels{
+
+.levels {
     margin-left: 10px;
     margin-top: 8px;
     color: rgb(2, 2, 70);
 
 }
+
 /* .levels:hover{
     color: rgb(255, 0, 0);
 } */
 
-.bottom1 a:hover{
+.bottom1 a:hover {
     color: red;
 }
 
 
 /*  Footer   */
 
-.foot1{
+.foot1 {
     height: 90px;
     width: 100%;
     background-color: rgb(232, 232, 232);
@@ -1066,14 +1218,16 @@
     align-items: center;
     border-top: 2px solid rgb(172, 169, 169);
 }
-.airtellogo{
+
+.airtellogo {
     height: 80px;
     width: 140px;
     /* background-color: grey; */
     margin-left: 65px;
     background-size: contain;
 }
-.store{
+
+.store {
     height: 80px;
     width: 360px;
     /* background-color: pink; */
@@ -1083,14 +1237,16 @@
     margin-left: 195px;
     font-size: 1.1rem;
 }
-.apps{
+
+.apps {
     height: 30px;
     width: 120px;
     /* background-color: goldenrod; */
     border: 2px solid rgb(0, 0, 0);
     background-size: cover;
 }
-.follow{
+
+.follow {
     height: 80px;
     width: 350px;
     /* background-color: rgb(127, 185, 239); */
@@ -1100,7 +1256,8 @@
     justify-content: space-evenly;
     font-size: 1.1rem;
 }
-.followme{
+
+.followme {
     height: 27px;
     width: 30px;
     background-color: rgb(232, 232, 232);
@@ -1110,16 +1267,20 @@
     justify-content: space-evenly;
     font-size: 1.5rem;
 }
-.followme .fa{
+
+.followme .fa {
     margin-top: 15px;
 }
-.followme #abc:hover{
+
+.followme #abc:hover {
     color: rgb(23, 27, 236);
 }
-.followme #abc{
+
+.followme #abc {
     color: black;
 }
-.back{
+
+.back {
     height: 35px;
     width: 150px;
     border: 2px solid rgb(158, 156, 156);
@@ -1134,14 +1295,16 @@
     background-color: rgb(207, 207, 207);
     border-radius: 10px;
 }
-.back a{
+
+.back a {
     color: black;
 }
-.back:hover{
+
+.back:hover {
     background-color: rgb(232, 232, 232);
 }
 
-.foot2{
+.foot2 {
     height: 40px;
     width: 100%;
     background-color: rgb(218, 218, 218);
@@ -1152,15 +1315,17 @@
     justify-content: space-evenly;
     border-top: 2px solid rgb(222, 209, 209);
 }
-.foot2 p{
+
+.foot2 p {
     color: black;
 }
-.foot2 p:hover{
+
+.foot2 p:hover {
     color: blue;
 }
 
 
-.love{
+.love {
     height: 35px;
     width: 100%;
     /* background-color: rgb(211, 207, 207); */
@@ -1174,8 +1339,7 @@
     font-weight: 550;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.love i{
-    color: rgb(255, 0, 0);   
+
+.love i {
+    color: rgb(255, 0, 0);
 }
-
-
